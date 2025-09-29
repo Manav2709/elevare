@@ -14,13 +14,13 @@ export default function Hero() {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <motion.h1 
-            className="text-4xl md:text-6xl font-bold tracking-tight text-white"
+            className="text-4xl md:text-6xl font-bold tracking-tight text-white mb-4 md:mb-6"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
             <span className="block">Elevate Your Brand With</span>
-            <span className="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent pb-1">
               Data-Driven Marketing
             </span>
           </motion.h1>
