@@ -68,7 +68,7 @@ export default function Testimonials() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            Don't just take our word for it. Here's what our clients have to say about working with us.
+            Don&#39;t just take our word for it. Here&#39;s what our clients have to say about working with us.
           </motion.p>
         </div>
 
@@ -93,7 +93,7 @@ export default function Testimonials() {
                   <p className="text-sm text-gray-300">{testimonial.role}</p>
                 </div>
               </div>
-              <p className="text-gray-300 mb-6 italic">"{testimonial.content}"</p>
+              <p className="text-gray-300 mb-6 italic">&ldquo;{testimonial.content}&rdquo;</p>
               <div className="flex items-center">
                 {[1, 2, 3, 4, 5].map((rating) => (
                   <StarIcon

@@ -85,7 +85,7 @@ export default function Services() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            We offer a full suite of marketing services designed to help your business grow and succeed in today's competitive landscape.
+            We offer a full suite of marketing services designed to help your business grow and succeed in today&#39;s competitive landscape.
           </motion.p>
         </div>
 
