@@ -21,7 +21,7 @@ export default function Hero() {
           >
             <span className="block">Elevate Your Brand With</span>
             <span className="block bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent pb-1">
-              Data-Driven Marketing
+              Impactful Marketing
             </span>
           </motion.h1>
           
