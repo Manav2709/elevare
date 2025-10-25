@@ -52,7 +52,7 @@ const fadeInUp = {
 
 export default function Portfolio() {
   return (
-    <section className="py-20 bg-transparent">
+    <section className="py-20 bg-gray-950 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <motion.h2

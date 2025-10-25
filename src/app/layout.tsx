@@ -39,7 +39,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
-      <body className={`${inter.variable} font-sans antialiased bg-gray-950 text-gray-100`}>
+      <body className={`${inter.variable} font-sans antialiased bg-gray-950 text-white`}>
         <div className="min-h-screen flex flex-col">
           <ScrollRestoration />
           <Navbar />

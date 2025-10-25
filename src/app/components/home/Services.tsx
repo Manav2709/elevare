@@ -60,7 +60,7 @@ const fadeInUp: Variants = {
 
 export default function Services() {
   return (
-    <section className="relative py-20 bg-gradient-to-b from-gray-900 to-gray-950 overflow-hidden">
+    <section className="relative py-20 bg-gray-950 border-t border-white/5 overflow-hidden">
       <div className="absolute inset-0 -z-10 opacity-10">
         <div className="absolute inset-0 bg-[url('/grid.svg')] bg-center" />
       </div>
